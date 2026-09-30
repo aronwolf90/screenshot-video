@@ -1,0 +1,129 @@
+/* Flameshot GNOME */
+
+#fsg-overlay {
+  background-color: transparent;
+}
+
+.fsg-shade {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.fsg-selection {
+  border: 1px solid rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6);
+}
+
+.fsg-handle {
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.fsg-size-label,
+.fsg-hint {
+  background-color: rgba(20, 20, 20, 0.85);
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+.fsg-hint {
+  font-weight: normal;
+  padding: 8px 14px;
+  font-size: 12pt;
+}
+
+.fsg-toolbar {
+  background-color: rgba(28, 28, 28, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 4px;
+  spacing: 2px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.fsg-toolbar-separator {
+  width: 1px;
+  margin: 4px 4px;
+  background-color: rgba(255, 255, 255, 0.18);
+}
+
+.fsg-tool-button {
+  padding: 6px;
+  border-radius: 6px;
+  color: #e6e6e6;
+  transition-duration: 100ms;
+}
+
+.fsg-tool-button:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.fsg-tool-button:checked {
+  background-color: rgba(53, 132, 228, 0.9);
+  color: #ffffff;
+}
+
+.fsg-tool-button:active {
+  background-color: rgba(255, 255, 255, 0.22);
+}
+
+.fsg-tool-button StIcon {
+  icon-size: 18px;
+}
+
+.fsg-action-button {
+  color: #ffffff;
+}
+
+.fsg-color-button {
+  width: 16px;
+  height: 16px;
+  margin: 6px 3px;
+  border-radius: 9px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.fsg-color-button:hover {
+  border: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+.fsg-color-button:checked {
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 1px #000000;
+}
+
+.fsg-size-box {
+  padding: 0 6px;
+  spacing: 4px;
+}
+
+.fsg-size-value {
+  color: #ffffff;
+  font-weight: bold;
+  min-width: 22px;
+  text-align: center;
+}
+
+.fsg-status {
+  color: #bdbdbd;
+  font-size: 10pt;
+  padding: 0 8px;
+}
+
+.fsg-pinned {
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+}
+
+.fsg-record-button {
+  color: #ff4a4a;
+}
+
+.fsg-recording-frame {
+  border: 2px solid rgba(237, 51, 59, 0.85);
+}

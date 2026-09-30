@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="flameshot-gnome">
+  <schema id="org.gnome.shell.extensions.flameshot-gnome" path="/org/gnome/shell/extensions/flameshot-gnome/">
+    <key name="capture-shortcut" type="as">
+      <default><![CDATA[['<Super>Print']]]></default>
+      <summary>Keyboard shortcut to start a capture</summary>
+    </key>
+    <key name="show-indicator" type="b">
+      <default>true</default>
+      <summary>Show an icon in the top bar</summary>
+    </key>
+    <key name="save-directory" type="s">
+      <default>''</default>
+      <summary>Directory screenshots are saved to (empty = ~/Pictures/Screenshots)</summary>
+    </key>
+    <key name="filename-pattern" type="s">
+      <default>'Screenshot from %Y-%m-%d %H-%M-%S.png'</default>
+      <summary>File name pattern, expanded with strftime-style placeholders</summary>
+    </key>
+    <key name="ask-where-to-save" type="b">
+      <default>false</default>
+      <summary>Show a file chooser when saving instead of saving directly</summary>
+    </key>
+    <key name="copy-on-save" type="b">
+      <default>true</default>
+      <summary>Also copy the image to the clipboard when saving</summary>
+    </key>
+    <key name="include-cursor" type="b">
+      <default>false</default>
+      <summary>Include the mouse pointer in the screenshot</summary>
+    </key>
+    <key name="show-notification" type="b">
+      <default>true</default>
+      <summary>Show a notification after copying or saving</summary>
+    </key>
+    <key name="play-sound" type="b">
+      <default>true</default>
+      <summary>Play the camera shutter sound</summary>
+    </key>
+    <key name="show-size-label" type="b">
+      <default>true</default>
+      <summary>Show the selection size next to the selection</summary>
+    </key>
+    <key name="default-color" type="s">
+      <default>'#ff2b2b'</default>
+      <summary>Initial drawing colour</summary>
+    </key>
+    <key name="default-thickness" type="i">
+      <range min="1" max="40"/>
+      <default>3</default>
+      <summary>Initial stroke thickness</summary>
+    </key>
+    <key name="remember-tool-state" type="b">
+      <default>true</default>
+      <summary>Remember the last used colour and thickness between captures</summary>
+    </key>
+    <key name="record-shortcut" type="as">
+      <default><![CDATA[['<Shift><Super>Print']]]></default>
+      <summary>Keyboard shortcut to start or stop a screen recording</summary>
+    </key>
+    <key name="video-directory" type="s">
+      <default>''</default>
+      <summary>Directory recordings and exported videos are saved to (empty = ~/Videos/Screencasts)</summary>
+    </key>
+    <key name="record-cursor" type="b">
+      <default>true</default>
+      <summary>Show the mouse pointer in recordings</summary>
+    </key>
+    <key name="record-framerate" type="i">
+      <range min="5" max="60"/>
+      <default>30</default>
+      <summary>Frames per second of recordings</summary>
+    </key>
+    <key name="open-editor-after-recording" type="b">
+      <default>true</default>
+      <summary>Open the video editor when a recording stops</summary>
+    </key>
+  </schema>
+</schemalist>

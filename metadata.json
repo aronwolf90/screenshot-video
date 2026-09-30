@@ -1,0 +1,9 @@
+{
+  "uuid": "flameshot-gnome@aronwolf90.github.io",
+  "name": "Flameshot GNOME",
+  "description": "Flameshot-style screenshot tool implemented as a native GNOME Shell extension: freeze the screen, drag a region, annotate (pencil, line, arrow, rectangle, ellipse, marker, text, pixelate, counter), then copy, save, pin or open the result. Also records the screen and lets you annotate the recording over time. Works on Wayland.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.flameshot-gnome",
+  "url": "https://github.com/aronwolf90/flameshot-gnome",
+  "version": 1
+}
